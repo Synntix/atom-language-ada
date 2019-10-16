@@ -119,3 +119,18 @@
   "with …;":
     prefix: "w"
     body: "with $1;"
+  "ecrire(…);":
+    prefix: "e"
+    body: "Ecrire(\"$1\");"
+  "ecrire_ligne(…);":
+    prefix: "el"
+    body: "Ecrire_ligne(\"$1\");"
+  "lire(…);":
+    prefix: "li"
+    body: "Lire($1);"
+  "a_la_ligne;":
+    prefix: "al"
+    body: "A_la_ligne;"
+  "image(…)":
+    prefix: "im"
+    body: "image($1)"
